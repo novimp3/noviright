@@ -8,7 +8,6 @@ moves the discord server bar to the right side.
 ### features
 - **right side guilds** — server bar anchored to the right edge
 - **fixed badges** — pings and unreads repositioned so they dont clip
-- **no !important spam** — uses #app-mount specificity instead
 - **clean scrollbar** — guild scroller hidden
 
 ### install
