@@ -21,5 +21,8 @@ moves the discord server bar to the right side.
 **or just use this link**
 https://raw.githubusercontent.com/novimp3/noviright/main/noviright.css
 
+### website
+[![Website](https://img.shields.io/badge/🔗_Visit_Website-5865F2?style=for-the-badge&logoColor=white)](https://novimp3.github.io/noviright)
+
 ### note
-open source. fork it if you want.
+open source. fork it if you want, just give credits.
