@@ -1,0 +1,63 @@
+/**
+ * @name noviright
+ * @author novi.mp3
+ * @version 1.0.0
+ * @description moves the server bar to the right side
+ */
+
+#app-mount [class*="guilds_"] {
+  position: fixed;
+  right: 0;
+  left: auto;
+  top: 0;
+  height: 100vh;
+  z-index: 1000;
+  border-left: 1px solid rgba(255, 255, 255, 0.06);
+  border-right: none;
+}
+
+#app-mount [class*="base_"] {
+  margin-left: 0;
+  margin-right: 72px;
+}
+
+#app-mount [class*="blobContainer_"] {
+  left: 0;
+  right: auto;
+  transform-origin: left center;
+}
+
+#app-mount [class*="scroller_"][class*="guilds_"]::-webkit-scrollbar {
+  display: none;
+}
+
+
+#app-mount [class*="guilds_"] [class*="pill_"] {
+  left: auto;
+  right: 0;
+}
+
+#app-mount [class*="guilds_"] [class*="numberBadge_"] {
+  right: auto;
+  left: -4px;
+}
+
+#app-mount [class*="guilds_"] [class*="iconBadge_"] {
+  right: auto;
+  left: -2px;
+}
+
+#app-mount [class*="guilds_"] [class*="mention_"] {
+  right: auto;
+  left: -6px;
+}
+
+#app-mount [class*="guilds_"] [class*="upperBadge_"],
+#app-mount [class*="guilds_"] [class*="lowerBadge_"] {
+  right: auto;
+  left: -2px;
+}
+
+#app-mount [class*="guilds_"] [class*="listItem_"] {
+  overflow: visible;
+}
