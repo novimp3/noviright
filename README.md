@@ -1,13 +1,25 @@
-# noviright
+# noviright 🌌
 
-moves the discord server bar to the right. thats it.
+moves the discord server bar to the right side.
 
-## install
+### preview
+![preview](preview.png)
 
-drop `noviright.css` in your themes folder and enable it.
+### features
+- **right side guilds** — server bar anchored to the right edge
+- **fixed badges** — pings and unreads repositioned so they dont clip
+- **no !important spam** — uses #app-mount specificity instead
+- **clean scrollbar** — guild scroller hidden
 
-works with vencord, betterdiscord, and openasar.
+### install
 
-## license
+**vencord / vesktop / betterdiscord**
+1. copy the raw link to `noviright.css`
+2. open client settings → **themes**
+3. paste the link in online themes
 
-do whatever
+**or just use this link**
+https://raw.githubusercontent.com/novimp3/noviright/main/noviright.css
+
+### note
+open source. fork it if you want.
