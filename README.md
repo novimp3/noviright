@@ -1,3 +1,5 @@
+## This repo isnt being updated, as it was a 1 time project and wasent meant to be updated daily... fork it if you want to.
+
 # noviright 🌌
 
 moves the discord server bar to the right side.
